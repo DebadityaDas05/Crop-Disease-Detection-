@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets and Archives (Large binary files)
+data/
+PlantVillage.zip
+*.zip
+*.tar
+*.tar.gz
+
+# Trained Model Weights (>9MB; store locally or use Git LFS)
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and Temporary Files
+*.log
